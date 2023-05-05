@@ -8,10 +8,10 @@
 }
 
 .blu_corner {
-  width: 60%;
+  width: 38%;
 }
 .yellow_corner {
-  width: 47% !important;
+  width: 38% !important;
 }
 
 .opp {
@@ -50,9 +50,9 @@
   top: 5rem;
 }
 
-.con_part {
+.con_part{
   display: flex;
-  justify-content: start;
+  justify-content:center !important;
 }
 
 /* join box */

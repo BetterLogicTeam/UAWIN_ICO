@@ -59,3 +59,12 @@
 .swp:focus{
     box-shadow: none !important;
 }
+
+.block_coin{
+    background-color: #0E1924 !important;
+    border: none !important;
+}
+
+.block_coin:focus{
+    box-shadow: none !important;
+}
