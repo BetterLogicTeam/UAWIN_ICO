@@ -81,6 +81,16 @@
 }
 
 @media only screen and (max-width: 600px) {
+
+  .get_buttn {
+    background-color: #ffd500;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    width: 40%;
+    padding: 10px 0px;
+  }
+
   .main_title_uper {
     margin-left: 27px;
   }

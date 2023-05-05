@@ -136,3 +136,60 @@
     left: 0rem;
   }
 }
+
+@media only screen and (min-width:605px) and (max-width:850px) {
+  .Prosperity {
+    position: relative;
+    bottom: 64px;
+    left: 7rem;
+}
+
+.Expansion {
+  position: relative;
+  left: 22rem;
+  bottom: 56px;
+}
+
+.growth {
+  position: relative;
+  bottom: 10px;
+  left: 1rem;
+}
+
+.launch {
+  position: relative;
+  left: 17rem;
+  bottom: -22px;
+  z-index: 2 !important;
+}
+
+}
+
+@media only screen and (min-width:900px) and (max-width:1050px) {
+
+  .launch {
+    position: relative;
+    left: 25rem;
+    bottom: 41px;
+    z-index: 1 !important;
+}
+
+.growth {
+  position: relative;
+  bottom: 49px;
+  left: 7rem;
+}
+
+.Expansion {
+  position: relative;
+  left: 31rem;
+  bottom: 78px;
+}
+
+.Prosperity {
+  position: relative;
+  bottom: 64px;
+  left: 16rem;
+}
+  
+}
