@@ -40,7 +40,7 @@
 }
 
 .pin_point_list {
-  color: white;
+  color: #b4b7bb;
   font-size: 10px;
 }
 
@@ -65,13 +65,13 @@
 .Expansion {
   position: relative;
   left: 31rem;
-    bottom: 128px;
+  bottom: 128px;
 }
 
 .Prosperity {
   position: relative;
   bottom: 64px;
-  left: 25rem;
+  left: 24rem;
 }
 
 @media only screen and (max-width: 600px) {

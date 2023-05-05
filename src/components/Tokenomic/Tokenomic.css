@@ -14,10 +14,16 @@
 .writen_title{
     color: white;
     font-size: 18px;
+    font-weight: 600;
 }
 
 .writen_title_details{
     color: white;
     font-size: 12px;
     text-align: justify;
+    padding: 0px 12px;
+}
+
+.fr_bord{
+    border-left: 2px dotted gray;
 }

@@ -1,0 +1,61 @@
+
+.all_gary{
+    color: #B4B7BB !important;
+}
+
+.slng{
+    background-color: #0E1924 !important;
+    border-radius: 20px;
+    border: none;
+    color: white !important;
+    padding: 8px 0px;
+    width: 70%;
+}
+
+.fr_inside{
+    position: relative;
+}
+
+.mx{
+    color: #FFD500;
+    font-size: 12px;
+    font-weight: 500;
+    position: absolute;
+    right: 170px;
+}
+
+.exten_headings{
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.slng:focus{
+    box-shadow: none;
+}
+
+.selling_cor{
+    width: 4%;
+    height: 0%;
+}
+
+.bnb_selling{
+    color: white;
+}
+
+.buying_cor{
+    width: 5%;
+}
+
+.swp{
+    background-color: #FFD500 !important;
+    color: black;
+    border-radius: 20px !important;
+    width: 32%;
+    font-size: 15px;
+    font-weight: 600;
+    border: 1px solid black;
+}
+
+.swp:focus{
+    box-shadow: none !important;
+}

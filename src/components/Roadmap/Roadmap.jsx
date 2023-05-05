@@ -24,7 +24,7 @@ function Roadmap() {
                         <img src={lft_crnr} alt="" className='corner_left' />
                         </>
                     <div className="title_core">
-                        <h2 className='text-white pt-3'>Roadmap</h2>
+                        <h2 className='text-white pt-3 fw-bold'>Roadmap</h2>
                         <img src={roadd_ua} alt="" className='' />
                     </div>
                     <img src={right_side_ua} alt="" className='right_side_win' />
@@ -35,8 +35,8 @@ function Roadmap() {
                         <img src={launch_title} alt="" className='point_title' />
                         <img src={point_one} alt="" className='point_pin' />
                         <div className='text-start'>
-                            <h4 className='list_main_title'>LAUNCH</h4>
-                            <ol className='text-start ps-3'>
+                            <h4 className='list_main_title fw-bold'>LAUNCH</h4>
+                            <ol className='text-start ps-3 '>
                                 <li className='pin_point_list'>1,000 Holders</li>
                                 <li className='pin_point_list'>Website Launch</li>
                                 <li className='pin_point_list'>CoinGecko Listing</li>
@@ -47,7 +47,7 @@ function Roadmap() {
 
                     <div className="growth d-flex gap-4">
                     <div className='text-start'>
-                            <h4 className='list_main_title'>Growth</h4>
+                            <h4 className='list_main_title fw-bold'>Growth</h4>
                             <ol className='text-start ps-3'>
                                 <li className='pin_point_list'>1,000 Holders</li>
                                 <li className='pin_point_list'>Coinmarketcap listing</li>
@@ -63,7 +63,7 @@ function Roadmap() {
                     <img src={Expansion_title} alt="" className='point_title_ex' />
                         <img src={point_three} alt="" className='point_pin' />
                         <div className='text-start'>
-                            <h4 className='list_main_title'>Expansion</h4>
+                            <h4 className='list_main_title fw-bold'>Expansion</h4>
                             <ol className='text-start ps-3'>
                                 <li className='pin_point_list'>1,000 Holders</li>
                                 <li className='pin_point_list'>Initial CEX Listing (WhiteBIT, Hotbit, KuCoin)</li>
@@ -75,7 +75,7 @@ function Roadmap() {
 
                     <div className="Prosperity d-flex gap-4">
                     <div className='text-start'>
-                            <h4 className='list_main_title'>Prosperity</h4>
+                            <h4 className='list_main_title fw-bold'>Prosperity</h4>
                             <ol className='text-start ps-3'>
                                 <li className='pin_point_list'>UAWIN Decentralized Exchange</li>
                                 <li className='pin_point_list'>UAWIN Merch (Merchandise Store)</li>

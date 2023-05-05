@@ -4,21 +4,21 @@ import qr from "../Assets/qr.png"
 export default function Donate() {
   return (
     <div className="main_donate_bg">
-      <div className="container">
+      <div className="container py-5">
         <div className="row">
           <div className="col-md-6 text-white">
             <h1 className="donte_heaind">Feel like donating?</h1>
-            <p>
+            <p className="donate_detaills all_gary mt-4">
               We’re constantly improving and making the project better. If you
               want to support us - feel free to donate or contact us to share
               your ideas on how we can become even better.
             </p>
-            <div className="row">
+            <div className="row mt-5">
 
-                <div className="col-md-6 mt-4 mt-md-0">
+                <div className="col-md-6 mt-4 mt-md-0 d-flex justify-content-md-end justify-content-center">
                     <button className="join_us_buttton">Join Us</button>
                 </div>
-                <div className="col-md-6 mt-4 mt-md-0">
+                <div className="col-md-6 mt-4 mt-md-0 d-flex justify-content-md-start justify-content-center">
                     <button className="partner_with_us">Partner With Us</button>
                 </div>
             </div>

@@ -1,6 +1,9 @@
 .App {
   text-align: center;
+  font-family: 'Poppins', sans-serif;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
 
 .App-logo {
   height: 40vmin;

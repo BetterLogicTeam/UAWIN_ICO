@@ -7,10 +7,10 @@ function Why_uwin() {
     <div style={{ background: "#04101C" }} id="Why_UAWIN">
       <div className="container">
         <div className="why_title">
-          <h2 className="text-white">
+          <h2 className="text-white fw-bold">
             Why <span className="dollar">$UAWIN?</span>
           </h2>
-          <p className="why_tye">
+          <p className="why_tye all_gary">
             Trusted technology, transparency and decentralization.
           </p>
         </div>
@@ -23,7 +23,7 @@ function Why_uwin() {
           <div className="col-lg-6">
             <div className="under_hood">
               <h2 className="hood_title">Under the hood</h2>
-              <p className="hood_details">
+              <p className="hood_details all_gary">
                 $UAWIN is fully decentralized and owned by the community of
                 holders. $UAWIN is built on Binance Smart Chain - industry’s
                 most trusted blockchain and utilizes it’s best features as well

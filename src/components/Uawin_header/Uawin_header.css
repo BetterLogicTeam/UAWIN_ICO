@@ -21,6 +21,11 @@
     color: white !important;
 }
 
+.nav_points:hover{
+  color: #005EC0 !important;
+  text-decoration: underline;
+}
+
 .form-select {
   display: block;
   width: 100%;

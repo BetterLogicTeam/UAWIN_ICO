@@ -38,4 +38,10 @@
 }
 .accordion-button:not(.collapsed){
     box-shadow: none !important;
+    color: white !important;
+}
+
+.fqq{
+    text-align: justify;
+    font-size: 13px;
 }

@@ -34,9 +34,25 @@ border-radius: 15px 15px 0px 0px !important;
     background: #04101C !important;
 }
 
+.get_blue{
+    width: 20%;
+}
+
+.hol{
+    text-align: justify;
+}
+
+.how_detail_point{
+    font-size: 13px;
+    line-height: 23px;
+}
 
 @media only screen and (max-width:700px){
     .main_modal {
         padding-left: 0px !important;
+    }
+
+    .get_blue{
+        width: 40%;
     }
 }

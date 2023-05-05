@@ -6,7 +6,7 @@
 
 .main_maini_heading{
     color: white !important;
-    font-weight: 650 !important;
+    font-weight: 800 !important;
 }
 
 .main_para_heading{
@@ -15,4 +15,7 @@
 
 .meni{
     text-align: justify;
+    color: #B4B7BB;
+    font-size: 13px;
+    line-height: 21px;
 }

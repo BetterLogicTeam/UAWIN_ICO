@@ -8,7 +8,7 @@ function Tokenomic() {
   return (
     <div style={{ background: "#0E1924" }} id="Tokenomic">
       <div className="container">
-        <h2 className="text-white pt-5">Tokenomic</h2>
+        <h2 className="text-white pt-5 fw-bold">Tokenomic</h2>
         <div className="row pt-5 end_graph">
           <div className="col-lg-6 text-white">
             <div className="graph_uper">
@@ -38,7 +38,7 @@ function Tokenomic() {
           <div className="col-lg-3">
             <div className="graph_detail_writen_main">
               <h2 className="writen_title">Token supply</h2>
-              <p className="writen_title_details">
+              <p className="writen_title_details all_gary">
                 Total UAWIN token supply is 5 billion tokens, where 10% is
                 reserved for the team with a half a year lock period and all the
                 rest is distributed among the community.
@@ -48,26 +48,26 @@ function Tokenomic() {
           <div className="col-lg-3">
             <div className="graph_detail_writen_main">
               <h2 className="writen_title">Token Utility</h2>
-              <p className="writen_title_details">
+              <p className="writen_title_details all_gary">
                 UAWIN token’s utility is pure representation of an event and the
                 ability to invest in it.
               </p>
             </div>
           </div>
-          <div className="col-lg-3">
+          <div className="col-lg-3 fr_bord">
             <div className="graph_detail_writen_main">
               <h2 className="writen_title">Token Distribution</h2>
-              <p className="writen_title_details">
+              <p className="writen_title_details all_gary">
                 Private sale is followed by the Pre-sale stage, after those two
                 both Public Sale and CEX listings are launched. Airdrop program
                 is always active and serves charity purpose only.
               </p>
             </div>
           </div>
-          <div className="col-lg-3">
+          <div className="col-lg-3 fr_bord">
             <div className="graph_detail_writen_main">
               <h2 className="writen_title">Token Burns</h2>
-              <p className="writen_title_details">
+              <p className="writen_title_details all_gary">
                 Burning is to be initiated after the victory event happens.
                 Holders of the tokens are gonna be eligible to participate in
                 DAO.
