@@ -1,10 +1,18 @@
+.contect1 {
+  border-radius: 40px;
+  background-color: #005ec0;
+  color: white !important;
+  font-size: 12px;
+  font-weight: 600;
+  width: 150% !important;
+}
 .contect {
   border-radius: 40px;
   background-color: #005ec0;
   color: white !important;
   font-size: 12px;
   font-weight: 600;
-  width: 100% !important;
+  width: 120% !important;
 }
 
 .selct {

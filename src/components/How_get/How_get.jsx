@@ -3,9 +3,14 @@ import "./How_get.css";
 import v from "../Assets/v.png";
 import car from "../Assets/car.png";
 import Connect_wallet from "../Connect_wallet/Connect_wallet";
+import { useSelector } from "react-redux";
 
 export default function How_get() {
   const [modalShow, setModalShow] = React.useState(false);
+  let { provider, acc, providerType, web3 } = useSelector(
+    (state) => state.connectWallet
+  );
+
   return (
     <div className="main_how_to_get" id="how_get">
       <div className="text-end">
@@ -42,7 +47,9 @@ export default function How_get() {
               className="cooncet_wallate mt-5"
               onClick={() => setModalShow(true)}
             >
-              Connect Wallet
+              {acc?.startsWith("0x")
+                ? acc?.substring(0, 4) + "..." + acc?.substring(acc?.length - 4)
+                : "Connect Wallet"}{" "}
             </button>
             <Connect_wallet
               show={modalShow}

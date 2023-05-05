@@ -6,8 +6,8 @@ import yello_coins from "../Assets/right_coin.png";
 import dark_win from "../Assets/dark_win.PNG";
 import Exchange_modal from "../Exchange_modal/Exchange_modal";
 
-function Home_uwin() {
-  const [modalShow, setModalShow] = React.useState(false);
+function Home_uwin({modalShow,setModalShow}) {
+  const [SwapModel, setSwapModel] = React.useState(false);
   return (
     <div style={{ background: "#04101C" }} id="Home">
       <div className="container-fluid">
@@ -28,13 +28,14 @@ function Home_uwin() {
                 </p>
                 <button
                   className="btn get_buttn mt-4"
-                  onClick={() => setModalShow(true)}
+                  onClick={() => setSwapModel(true)}
                 >
                   Get $UAWIN
                 </button>
                 <Exchange_modal
-                  show={modalShow}
-                  onHide={() => setModalShow(false)}
+                  show={SwapModel}
+                  onHide={() => setSwapModel(false)}
+                  setModalShow={setModalShow} modalShow={modalShow}
                 />
               </div>
             </div>
@@ -71,6 +72,7 @@ function Home_uwin() {
         </div>
       </div>
     </div>
+    
   );
 }
 

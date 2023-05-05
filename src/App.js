@@ -10,12 +10,17 @@ import How_get from './components/How_get/How_get';
 import FAQ from './components/FAQ/FAQ';
 import Donate from './components/Donate/Donate';
 import Main_footer from './components/Main_footer/Main_footer';
+import { Toaster } from 'react-hot-toast';
+import { useState } from 'react';
 
 function App() {
+  const [modalShow, setModalShow] = useState(false);
   return (
     <div className="App">
-      <Uawin_header/>
-      <Home_uwin/>
+      <Toaster />
+      
+      <Uawin_header setModalShow={setModalShow} modalShow={modalShow}/>
+      <Home_uwin setModalShow={setModalShow} modalShow={modalShow} />
       <Why_uwin/>
       <Tokenomic/>
       <Roadmap/>
