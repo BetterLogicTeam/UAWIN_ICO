@@ -1,0 +1,75 @@
+.contect {
+  border-radius: 40px;
+  background-color: #005ec0;
+  color: white !important;
+  font-size: 12px;
+  font-weight: 600;
+  width: 100% !important;
+}
+
+.selct {
+    background: transparent ;
+    border: none !important;
+}
+.selct:focus {
+    outline: none !important;
+    border-color: none !important;
+    box-shadow: none !important;
+}
+
+.nav_points{
+    color: white !important;
+}
+
+.form-select {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+  /* -moz-padding-start: calc(0.75rem - 3px); */
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-image:url(../Assets/arrdo.png) !important;
+  /* background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e); */
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 16px 12px;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  /* -webkit-appearance: none; */
+  /* -moz-appearance: none; */
+  /* appearance: none; */
+}
+
+.other_lan{
+  background-color: black;
+}
+
+.selt_uper{
+  display: flex !important;
+  gap: 10px !important;
+}
+
+@media only screen and (max-width:600px) {
+    .contect {
+        width: 50% !important;
+      }
+
+      .selct{
+        width: 50% !important;
+      }
+
+      .selt_uper{
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px !important;
+      }
+
+}
+
+
+
+

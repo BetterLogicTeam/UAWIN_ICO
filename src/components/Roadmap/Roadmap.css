@@ -1,0 +1,138 @@
+.corner_left {
+  width: 13%;
+  height: 15%;
+}
+
+.right_side_win {
+  width: 10%;
+}
+
+.road_cor {
+  width: 60%;
+}
+
+.road_main {
+  background-image: url(../Assets/way.png);
+  background-repeat: no-repeat;
+  background-position: center !important;
+  background-size: 50%;
+  /* height: 130vh; */
+}
+
+.point_title {
+  width: 17px;
+  height: 0%;
+}
+
+.point_title_ex {
+  width: 17px;
+  height: 0%;
+}
+
+.point_pin {
+  width: 8%;
+  height: 10%;
+}
+
+.point_pin_Prosperity {
+  width: 10%;
+  height: 10%;
+}
+
+.pin_point_list {
+  color: white;
+  font-size: 10px;
+}
+
+.list_main_title {
+  color: white;
+  font-size: 18px;
+}
+
+.launch {
+  position: relative;
+  left: 30rem;
+  bottom: 74px;
+  z-index: 2 !important;
+}
+
+.growth {
+  position: relative;
+  bottom: 90px;
+  left: 7rem;
+}
+
+.Expansion {
+  position: relative;
+  left: 31rem;
+    bottom: 128px;
+}
+
+.Prosperity {
+  position: relative;
+  bottom: 64px;
+  left: 25rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .road_main {
+    margin-top: 5rem;
+    background-image: url(../Assets/way.png);
+    background-repeat: no-repeat;
+    background-position: center !important;
+    background-size: 100%;
+  }
+
+  .point_title {
+    width: 12px;
+    height: 0%;
+  }
+
+  .point_pin {
+    width: 15%;
+    height: 0%;
+  }
+
+  .point_pin_Prosperity {
+    width: 13%;
+    height: 10%;
+  }
+
+  .pin_point_list {
+    color: white;
+    font-size: 9px;
+  }
+
+  .launch {
+    position: relative;
+    left: 8rem;
+    bottom: 50px;
+  }
+
+  .growth {
+    position: relative;
+    bottom: 26px;
+    left: 0rem;
+  }
+
+  .Expansion {
+    position: relative;
+    left: 0rem;
+    bottom: 0px;
+  }
+
+  .Expansion {
+    display: flex !important;
+    flex-direction: row-reverse !important;
+  }
+
+  .point_title_ex {
+    display: none !important;
+  }
+
+  .Prosperity {
+    position: relative;
+    bottom: 0px;
+    left: 0rem;
+  }
+}

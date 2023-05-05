@@ -1,0 +1,41 @@
+.main_faq_bg{
+    background-color: #0E1924 !important;
+    padding: 30px 10px !important;
+}
+
+
+
+
+.faq_header .accordion-button{
+    background-color:  #04101C !important;
+    border: none !important;
+    outline: none !important;
+    color: white !important ;
+    font-weight: 650 !important;
+
+
+}
+
+.accordion-button:not(.collapsed) {
+    color: #005EC0 !important;
+}
+
+.faq_main_acc .accordion-item{
+    border: none !important;
+
+
+}
+.faq_main_acc .accordion-item :focus{
+    box-shadow: none !important;
+}
+.faq_main_acc .accordion-body{
+    background-color: #04101C !important ;
+    color: white !important;
+    border: none !important;
+}
+.faq_header {
+    border: none !important;
+}
+.accordion-button:not(.collapsed){
+    box-shadow: none !important;
+}

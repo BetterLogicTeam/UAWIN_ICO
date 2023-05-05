@@ -1,0 +1,42 @@
+.main_how_to_get{
+    background-color: #04101C !important;
+}
+
+.cooncet_wallate{
+    background-color: #FFD500 !important;
+    padding: 10px 25px !important;
+    /* width: 100% !important; */
+    border-radius: 25px !important;
+    outline: none !important;
+    border:none !important;
+    font-size: 20px !important;
+}
+
+.uawin{
+    background-color: #FFD500 !important;
+    color: black !important;
+
+}
+
+.modeccc{
+    background-color: #FFD500 !important;
+text-align:  center !important;
+color: black !important;
+justify-content: center !important;
+border-radius: 15px 15px 0px 0px !important;
+}
+
+.main_modal .modal-content{
+    background: transparent  !important;
+}
+
+.main_modal .modal-body{
+    background: #04101C !important;
+}
+
+
+@media only screen and (max-width:700px){
+    .main_modal {
+        padding-left: 0px !important;
+    }
+}

@@ -1,0 +1,41 @@
+.donte_heaind{
+    color: white !important;
+    font-weight: 650 !important;
+}
+
+.join_us_buttton{
+    background-color: #FFD500 !important;
+    padding: 10px !important;
+    width: 100% !important;
+    border-radius: 25px !important;
+    outline: none !important;
+    border:none !important;
+    font-size: 20px !important;
+}
+
+
+.partner_with_us{
+    border: 2px solid #FFD500 !important;
+    color: #FFD500 !important;
+    background-color: transparent !important;
+    border-radius: 25px !important;
+    width: 100% !important;
+    font-size: 20px !important;
+    padding: 10px !important;
+}
+
+.white_box{
+    background-color: white !important;
+    padding: 10px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    border-radius: 30px !important;
+    width: 50% !important;
+}
+
+
+.main_donate_bg{
+    background-color: #04101C !important;
+    padding: 30px 10px  !important;
+}

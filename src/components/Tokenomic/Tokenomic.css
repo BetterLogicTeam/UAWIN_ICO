@@ -1,0 +1,23 @@
+
+.graph_cor{
+    width: 56%;
+}
+
+.blue_detail_graph{
+    width: 50%;
+}
+
+.yellow_detail_graph{
+    width: 70%;
+}
+
+.writen_title{
+    color: white;
+    font-size: 18px;
+}
+
+.writen_title_details{
+    color: white;
+    font-size: 12px;
+    text-align: justify;
+}

@@ -1,0 +1,56 @@
+.dollar {
+  background-color: #ffd500;
+  color: black !important;
+  padding: 0px 6px;
+}
+.why_title {
+  padding-top: 5rem;
+  font-family: Poppins;
+  font-style: SemiBold;
+}
+.why_tye {
+  font-size: 18px;
+  color: #ffffff;
+  margin-top: 1rem;
+  font-family: Inter !important;
+  font-style: Medium;
+}
+
+.hood_title{
+    color:#FFFFFF;
+    Font-family: Poppins;
+    Font-size:46px;
+}
+
+.hood_details{
+  text-align: justify;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-family: Poppins;
+}
+
+.prt{
+  border-radius: 10px;
+}
+
+.present{
+  margin-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.side_ua{
+  width: 30%;
+}
+
+@media only screen and (max-width:600px) {
+
+  .present{
+    margin-top: 4rem;
+    padding-bottom: 2rem;
+  }
+
+  .why_title {
+    padding-top: 3rem;
+  }
+
+}

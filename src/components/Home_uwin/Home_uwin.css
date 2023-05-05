@@ -1,0 +1,113 @@
+.opp_title {
+  color: white;
+  font-size: 60px;
+  font-style: ExtraBold;
+  font-family: Plus Jakarta Sans;
+  line-height: 74px;
+}
+
+.blu_corner {
+  width: 60%;
+}
+.yellow_corner {
+  width: 47% !important;
+}
+
+.opp {
+  padding: 4px 7px;
+  background-color: #ffd500;
+  color: black !important;
+}
+
+.invest {
+  color: #ffffff;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.get_buttn {
+  background-color: #ffd500;
+  border-radius: 20px;
+}
+
+.main_title_uper {
+  margin-left: 50px;
+}
+
+.unique_part {
+  position: relative;
+  bottom: 53px;
+}
+
+.yellow_coin {
+  width: 60%;
+  position: relative;
+  top: 5rem;
+}
+
+.con_part {
+  display: flex;
+  justify-content: start;
+}
+
+/* join box */
+
+.join_part {
+  margin-top: 3rem;
+}
+
+.join_title {
+  color: white;
+  font-size: 35px;
+  font-weight: 800;
+  font-family: Poppins;
+  font-style: ExtraBold;
+}
+
+.join_details {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 33px;
+}
+
+.win_drk{
+    width:18%;
+}
+
+@media only screen and (max-width: 600px) {
+  .main_title_uper {
+    margin-left: 27px;
+  }
+
+  .opp_title {
+    font-size: 39px;
+    line-height: 60px;
+  }
+
+  .con_part {
+    display: flex;
+    justify-content: center;
+  }
+
+  .yellow_coin {
+    width: 60%;
+    position: relative;
+    top: 0rem;
+  }
+  .win_drk{
+    width:50%;
+}
+}
+
+@media only screen and (min-width: 600px) and (max-width: 991px) {
+  .con_part {
+    display: flex;
+    justify-content: center;
+  }
+
+  .yellow_coin {
+    width: 60%;
+    position: relative;
+    top: 0rem;
+  }
+}
