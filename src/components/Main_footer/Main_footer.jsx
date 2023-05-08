@@ -19,10 +19,10 @@ export default function Main_footer() {
             <img src={footer_logo} className="w-25" alt="" />
 
             <div className="d-flex justify-content-center mt-5 gap-4">
-              <img src={fface} alt="" />
-              <img src={ftwi} alt="" />
-              <img src={finsta} alt="" />
-              <img src={fyou} alt="" />
+              <a href=""> <img src={fface} alt="" className="social_handle" /></a>
+              <a href=""> <img src={ftwi} alt="" className="social_handle" /></a>
+              <a href=""> <img src={finsta} alt="" className="social_handle" /></a>
+              <a href=""> <img src={fyou} alt="" className="social_handle" /></a>
             </div>
             <div className="footer_text_here">
               <a href="#Home" className=" footer_linkpoint"> Home</a>

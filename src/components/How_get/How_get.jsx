@@ -13,7 +13,7 @@ export default function How_get() {
 
   return (
     <div className="main_how_to_get" id="how_get">
-      <div className="text-end">
+      <div className="text-end" >
         <img src={v} alt="#" className="get_blue" />
       </div>
       <div className="container">
@@ -21,10 +21,10 @@ export default function How_get() {
           How to get <span className="uawin px-1"> $UAWIN? </span>
         </h1>
         <div className="row justify-content-center align-items-center">
-          <div className="col-md-6">
+          <div className="col-md-6" data-aos="zoom-in" data-aos-duration="2000">
             <img src={car} className="w-100" alt="" />
           </div>
-          <div className="col-md-6 text-white">
+          <div className="col-md-6 text-white" data-aos="fade-left" data-aos-duration="2000">
             <h1 className="text-white fw-bold text-start">Connect Wallet</h1>
             <ol className="hol">
               <li className="how_detail_point all_gary">

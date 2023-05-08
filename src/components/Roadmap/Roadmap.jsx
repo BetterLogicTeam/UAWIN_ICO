@@ -34,7 +34,7 @@ function Roadmap() {
                     <div className="launch d-flex gap-4">
                         <img src={launch_title} alt="" className='point_title' />
                         <img src={point_one} alt="" className='point_pin' />
-                        <div className='text-start'>
+                        <div className='text-start'  data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                             <h4 className='list_main_title fw-bold'>LAUNCH</h4>
                             <ol className='text-start ps-3 '>
                                 <li className='pin_point_list'>1,000 Holders</li>
@@ -46,7 +46,7 @@ function Roadmap() {
                     </div>
 
                     <div className="growth d-flex gap-4">
-                    <div className='text-start'>
+                    <div className='text-start'  data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                             <h4 className='list_main_title fw-bold'>Growth</h4>
                             <ol className='text-start ps-3'>
                                 <li className='pin_point_list'>1,000 Holders</li>
@@ -62,7 +62,7 @@ function Roadmap() {
                     <div className="Expansion d-flex gap-4 ">
                     <img src={Expansion_title} alt="" className='point_title_ex' />
                         <img src={point_three} alt="" className='point_pin' />
-                        <div className='text-start'>
+                        <div className='text-start' data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                             <h4 className='list_main_title fw-bold'>Expansion</h4>
                             <ol className='text-start ps-3'>
                                 <li className='pin_point_list'>1,000 Holders</li>
@@ -74,7 +74,7 @@ function Roadmap() {
                     </div>
 
                     <div className="Prosperity d-flex gap-4">
-                    <div className='text-start'>
+                    <div className='text-start'  data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                             <h4 className='list_main_title fw-bold'>Prosperity</h4>
                             <ol className='text-start ps-3'>
                                 <li className='pin_point_list'>UAWIN Decentralized Exchange</li>

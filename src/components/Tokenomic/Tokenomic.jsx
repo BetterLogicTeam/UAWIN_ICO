@@ -1,8 +1,13 @@
 import React from "react";
 import "./Tokenomic.css";
 import graph_win from "../Assets/graph.png";
-import blu_detail from "../Assets/blue_details.png";
-import yellow_detail from "../Assets/yellow_details.png";
+import blu_detail_1 from "../Assets/blue_loder_1.png";
+import blu_detail_2 from "../Assets/blue_loder_2.png";
+import blu_detail_3 from "../Assets/blue_loder_3.png";
+import yellow_detail_1 from "../Assets/orange_loder_1.png";
+import yellow_detail_2 from "../Assets/orange_loder_2.png";
+import yellow_detail_3 from "../Assets/orange_loder_3.png";
+import yellow_detail_4 from "../Assets/orange_loder_4.png";
 
 function Tokenomic() {
   return (
@@ -11,22 +16,23 @@ function Tokenomic() {
         <h2 className="text-white pt-5 fw-bold">Tokenomic</h2>
         <div className="row pt-5 end_graph">
           <div className="col-lg-6 text-white">
-            <div className="graph_uper">
-              <img src={graph_win} alt="" className="graph_cor" />
+            <div className="graph_uper ">
+              <img src={graph_win} alt="" className="graph_cor anim" />
             </div>
           </div>
 
           <div className="col-lg-6">
             <div className="graph_detail">
               <div className="graph_detail_1 mt-4">
-                <img src={blu_detail} alt="#" className="blue_detail_graph" />
+                <img src={blu_detail_1} alt="#" className="blue_detail_graph anim" />
+                <img src={blu_detail_2} alt="#" className="blue_detail_graph anim" />
+                <img src={blu_detail_3} alt="#" className="blue_detail_graph anim" />
               </div>
               <div className="graph_detail_2 mt-4">
-                <img
-                  src={yellow_detail}
-                  alt=""
-                  className="yellow_detail_graph"
-                />
+                <img src={yellow_detail_1} alt="" className="yellow_detail_graph anim"/>
+                <img src={yellow_detail_2} alt="" className="yellow_detail_graph anim"/>
+                <img src={yellow_detail_3} alt="" className="yellow_detail_graph anim"/>
+                <img src={yellow_detail_4} alt="" className="yellow_detail_graph anim"/>
               </div>
             </div>
           </div>
@@ -35,7 +41,7 @@ function Tokenomic() {
         </div>
 
         <div className="row pb-5">
-          <div className="col-lg-3">
+          <div className="col-lg-3" data-aos="flip-right" data-aos-duration="3000">
             <div className="graph_detail_writen_main">
               <h2 className="writen_title">Token supply</h2>
               <p className="writen_title_details all_gary">
@@ -45,7 +51,7 @@ function Tokenomic() {
               </p>
             </div>
           </div>
-          <div className="col-lg-3">
+          <div className="col-lg-3" data-aos="flip-right" data-aos-duration="3000">
             <div className="graph_detail_writen_main">
               <h2 className="writen_title">Token Utility</h2>
               <p className="writen_title_details all_gary">
@@ -54,7 +60,7 @@ function Tokenomic() {
               </p>
             </div>
           </div>
-          <div className="col-lg-3 fr_bord">
+          <div className="col-lg-3 fr_bord" data-aos="flip-right" data-aos-duration="3000">
             <div className="graph_detail_writen_main">
               <h2 className="writen_title">Token Distribution</h2>
               <p className="writen_title_details all_gary">
@@ -64,7 +70,7 @@ function Tokenomic() {
               </p>
             </div>
           </div>
-          <div className="col-lg-3 fr_bord">
+          <div className="col-lg-3 fr_bord" data-aos="flip-right" data-aos-duration="3000">
             <div className="graph_detail_writen_main">
               <h2 className="writen_title">Token Burns</h2>
               <p className="writen_title_details all_gary">

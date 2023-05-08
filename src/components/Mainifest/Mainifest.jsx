@@ -7,7 +7,7 @@ export default function Mainifest() {
     <div className='main_main_bg' id='Manifest'>
     <div className="container">
     <div className="row align-items-center justify-content-center">
-        <div className="col-md-6 main_para_heading">
+        <div className="col-md-6 main_para_heading" data-aos="fade-right" data-aos-duration="2000">
             <h3 className='main_maini_heading text-start'>Manifest</h3>
             <p className='meni mt-4'>Introducing Ukraine Victory Coin (UAWIN), a crypto token that represents the inevitable event of Ukraine's victory in the war with Russia. Created on Binance Smart Chain, our token offers a unique opportunity to invest in a significant social and political event that is certain to happen.</p>
        <p className='meni'>Investing in UAWIN not only presents a good investment opportunity but also contributes to a worthy cause. A portion of the revenue generated from our token will be donated to charity organizations in Ukraine. Holders will also be rewarded with 1% of every user transaction.</p>
@@ -17,7 +17,7 @@ export default function Mainifest() {
        <hr className='w-25' />
        <p className='meni'>Victory that will change it all forever.</p>
         </div>
-        <div className="col-md-6 mt-4 mt-md-0">
+        <div className="col-md-6 mt-4 mt-md-0" data-aos="fade-left" data-aos-duration="2000">
             <img src={mani} alt="" className='w-100' />
         </div>
         </div>

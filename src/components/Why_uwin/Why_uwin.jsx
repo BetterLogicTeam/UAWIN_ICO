@@ -16,12 +16,12 @@ function Why_uwin() {
         </div>
         <div className="row present">
           <div className="col-lg-6">
-            <iframe className="prt w-100" width="560" height="315" src="https://www.youtube.com/embed/8xySaUgIu4w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe data-aos="fade-right" data-aos-duration="2000" className="prt w-100" width="560" height="315" src="https://www.youtube.com/embed/8xySaUgIu4w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
           </div>
 
           <div className="col-lg-6">
-            <div className="under_hood">
+            <div className="under_hood" data-aos="fade-left" data-aos-duration="2000">
               <h2 className="hood_title">Under the hood</h2>
               <p className="hood_details all_gary">
                 $UAWIN is fully decentralized and owned by the community of

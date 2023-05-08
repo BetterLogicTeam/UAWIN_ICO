@@ -27,6 +27,7 @@
 
 .nav_points{
     color: white !important;
+    font-family: 'Poppins', sans-serif !important;
 }
 
 .nav_points:hover{

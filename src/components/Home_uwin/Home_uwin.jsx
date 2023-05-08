@@ -16,7 +16,7 @@ function Home_uwin({modalShow,setModalShow}) {
             <div className="left_corner text-start">
               <img src={corner_1} alt="#" className="blu_corner" />
             </div>
-            <div className="unique_part ">
+            <div className="unique_part " data-aos="fade-up" data-aos-duration="2000">
               <div className="text-start main_title_uper">
                 <h1 className="opp_title">
                   Historical event, <br /> Unique{" "}
@@ -42,7 +42,7 @@ function Home_uwin({modalShow,setModalShow}) {
           </div>
 
           <div className="col-lg-6">
-            <div className="con_part mt-0 mt-md-5">
+            <div className="con_part mt-0 mt-md-5" data-aos="zoom-in" data-aos-duration="2000" >
               <img src={yello_coins} alt="#" className="yellow_coin" />
             </div>
             <div className="right_corner text-end">
