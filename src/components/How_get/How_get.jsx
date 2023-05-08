@@ -12,7 +12,7 @@ export default function How_get() {
   );
 
   return (
-    <div className="main_how_to_get" id="how_get">
+    <div className="main_how_to_get pb-5" id="how_get">
       <div className="text-end" >
         <img src={v} alt="#" className="get_blue" />
       </div>

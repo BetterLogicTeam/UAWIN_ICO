@@ -19,7 +19,7 @@ function Uawin_header({modalShow,setModalShow}) {
       <Navbar
         collapseOnSelect
         expand="lg"
-        bg="dark"
+        bg="dark" 
         className="py-3"
         style={{ background: "#0E1924" }}
       >
@@ -51,7 +51,7 @@ function Uawin_header({modalShow,setModalShow}) {
             </Nav>
             <Nav className="ms-auto">
               <div className="selt_uper gap-2">
-                <Form.Select
+                {/* <Form.Select
                   aria-label="Default select example"
                   className="selct text-white"
                 >
@@ -65,7 +65,7 @@ function Uawin_header({modalShow,setModalShow}) {
                   <option className="other_lan" value="3">
                     Chinese
                   </option>
-                </Form.Select>
+                </Form.Select> */}
 
                 <button className="btn btn-md contect">Contact Us</button>
                 <button
