@@ -9,13 +9,19 @@
     border-radius: 25px !important;
     outline: none !important;
     border:none !important;
-    font-size: 20px !important;
+    font-size: 13px !important;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif !important;
 }
 
 .uawin{
     background-color: #FFD500 !important;
     color: black !important;
+    font-family: 'Poppins', sans-serif !important;
+}
 
+.connect_w_title{
+    font-family: 'Poppins', sans-serif !important;
 }
 
 .modeccc{
@@ -45,6 +51,11 @@ border-radius: 15px 15px 0px 0px !important;
 .how_detail_point{
     font-size: 13px;
     line-height: 23px;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.how_to_title{
+    font-family: 'Poppins', sans-serif !important;
 }
 
 @media only screen and (max-width:700px){

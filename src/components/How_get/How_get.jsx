@@ -17,7 +17,7 @@ export default function How_get() {
         <img src={v} alt="#" className="get_blue" />
       </div>
       <div className="container">
-        <h1 className="text-white fw-bold text-center ">
+        <h1 className="text-white fw-bold text-center how_to_title ">
           How to get <span className="uawin px-1"> $UAWIN? </span>
         </h1>
         <div className="row justify-content-center align-items-center">
@@ -25,7 +25,7 @@ export default function How_get() {
             <img src={car} className="w-100" alt="" />
           </div>
           <div className="col-md-6 text-white" data-aos="fade-left" data-aos-duration="2000">
-            <h1 className="text-white fw-bold text-start">Connect Wallet</h1>
+            <h1 className="text-white fw-bold text-start connect_w_title">Connect Wallet</h1>
             <ol className="hol">
               <li className="how_detail_point all_gary">
                 On Google Chrome, visit metamask.io to download the extension
@@ -48,8 +48,7 @@ export default function How_get() {
               onClick={() => setModalShow(true)}
             >
               {acc?.startsWith("0x")
-                ? acc?.substring(0, 4) + "..." + acc?.substring(acc?.length - 4)
-                : "Connect Wallet"}{" "}
+                ? acc?.substring(0, 4) + "..." + acc?.substring(acc?.length - 4): "Connect Wallet"}{" "}
             </button>
             <Connect_wallet
               show={modalShow}

@@ -11,6 +11,10 @@
   width: 60%;
 }
 
+.road_title{
+  font-family: 'Poppins', sans-serif !important;
+}
+
 .road_main {
   background-image: url(../Assets/way.png);
   background-repeat: no-repeat;
@@ -42,11 +46,13 @@
 .pin_point_list {
   color: #b4b7bb;
   font-size: 10px;
+  font-family: 'Poppins', sans-serif !important;
 }
 
 .list_main_title {
   color: white;
   font-size: 18px;
+  font-family: 'Poppins', sans-serif !important;
 }
 
 .launch {
@@ -54,6 +60,7 @@
   left: 30rem;
   bottom: 74px;
   z-index: 2 !important;
+  
 }
 
 .growth {

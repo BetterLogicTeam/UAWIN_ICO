@@ -24,7 +24,7 @@ function Roadmap() {
                         <img src={lft_crnr} alt="" className='corner_left' />
                         </>
                     <div className="title_core">
-                        <h2 className='text-white pt-3 fw-bold'>Roadmap</h2>
+                        <h2 className='text-white pt-3 fw-bold road_title'>Roadmap</h2>
                         <img src={roadd_ua} alt="" className='' />
                     </div>
                     <img src={right_side_ua} alt="" className='right_side_win' />
@@ -36,7 +36,7 @@ function Roadmap() {
                         <img src={point_one} alt="" className='point_pin' />
                         <div className='text-start'  data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                             <h4 className='list_main_title fw-bold'>LAUNCH</h4>
-                            <ol className='text-start ps-3 '>
+                            <ol className='text-start ps-3 details_road'>
                                 <li className='pin_point_list'>1,000 Holders</li>
                                 <li className='pin_point_list'>Website Launch</li>
                                 <li className='pin_point_list'>CoinGecko Listing</li>

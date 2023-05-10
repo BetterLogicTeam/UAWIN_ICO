@@ -4,7 +4,9 @@
 }
 
 
-
+.faqq_title{
+    font-family: 'Poppins', sans-serif !important;
+}
 
 .faq_header .accordion-button{
     background-color:  #04101C !important;
@@ -12,8 +14,7 @@
     outline: none !important;
     color: white !important ;
     font-weight: 650 !important;
-
-
+    font-family: 'Poppins', sans-serif !important;
 }
 
 .accordion-button:not(.collapsed) {
@@ -44,4 +45,5 @@
 .fqq{
     text-align: justify;
     font-size: 13px;
+    font-family: 'Poppins', sans-serif !important;
 }

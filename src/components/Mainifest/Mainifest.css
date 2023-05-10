@@ -7,6 +7,7 @@
 .main_maini_heading{
     color: white !important;
     font-weight: 800 !important;
+    font-family: 'Poppins', sans-serif !important;
 }
 
 .main_para_heading{
@@ -18,4 +19,5 @@
     color: #B4B7BB;
     font-size: 13px;
     line-height: 21px;
+    font-family: 'Poppins', sans-serif !important;
 }

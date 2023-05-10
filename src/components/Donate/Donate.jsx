@@ -7,7 +7,7 @@ export default function Donate() {
       <div className="container py-5">
         <div className="row">
           <div className="col-md-6 text-white" data-aos="fade-right" data-aos-duration="2000">
-            <h1 className="donte_heaind">Feel like donating?</h1>
+            <h1 className="donte_heaind text-start">Feel like donating?</h1>
             <p className="donate_detaills all_gary mt-4">
               We’re constantly improving and making the project better. If you
               want to support us - feel free to donate or contact us to share

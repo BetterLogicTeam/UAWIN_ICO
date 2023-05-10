@@ -49,7 +49,7 @@ function Uawin_header({modalShow,setModalShow}) {
                 FAQ
               </Nav.Link>
             </Nav>
-            <Nav className="ms-auto">
+            <Nav className="">
               <div className="selt_uper gap-2">
                 {/* <Form.Select
                   aria-label="Default select example"
@@ -69,7 +69,7 @@ function Uawin_header({modalShow,setModalShow}) {
 
                 <button className="btn btn-md contect">Contact Us</button>
                 <button
-                  className="btn btn-md contect1"
+                  className="btn btn-md contect_wallet"
                   onClick={() => setModalShow(true)}
                 >
                   {acc?.startsWith("0x")

@@ -1,10 +1,12 @@
 .App {
   text-align: center;
   font-family: 'Poppins', sans-serif;
+  overflow: hidden !important;
 }
 
 /* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&family=Poppins:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap');
 
 .App-logo {
   height: 40vmin;

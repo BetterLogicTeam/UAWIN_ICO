@@ -7,7 +7,7 @@ function Why_uwin() {
     <div style={{ background: "#04101C" }} id="Why_UAWIN">
       <div className="container">
         <div className="why_title">
-          <h2 className="text-white fw-bold">
+          <h2 className="text-white fw-bold why_dluwin">
             Why <span className="dollar">$UAWIN?</span>
           </h2>
           <p className="why_tye all_gary">

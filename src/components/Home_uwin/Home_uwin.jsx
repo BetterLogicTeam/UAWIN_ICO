@@ -19,8 +19,8 @@ function Home_uwin({modalShow,setModalShow}) {
             <div className="unique_part " data-aos="fade-up" data-aos-duration="2000">
               <div className="text-start main_title_uper">
                 <h1 className="opp_title">
-                  Historical event, <br /> Unique{" "}
-                  <span className="opp">opportunity</span>
+                  Historical Event, <br /> Unique{" "}
+                  <span className="opp">Opportunity</span>
                 </h1>
                 <p className="invest mb-0 mt-3 mt-md-4 all_gary">
                   Invest in the most expected geopolitical event that is about

@@ -5,7 +5,7 @@ import Accordion from "react-bootstrap/Accordion";
 export default function FAQ() {
   return (
     <div className="main_faq_bg" id="FAQ">
-      <h1 className="text-white text-center fw-bold">
+      <h1 className="text-white text-center fw-bold faqq_title">
         Frequently Asked Questions
       </h1>
       <div className="container mt-5">

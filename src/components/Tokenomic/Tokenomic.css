@@ -44,6 +44,7 @@
     color: white;
     font-size: 18px;
     font-weight: 600;
+    font-family: 'Poppins', sans-serif !important;
 }
 
 .writen_title_details{
@@ -51,8 +52,13 @@
     font-size: 12px;
     text-align: justify;
     padding: 0px 12px;
+    font-family: 'Poppins', sans-serif !important;
 }
 
 .fr_bord{
     border-left: 2px dotted gray;
+}
+
+.toko_title{
+    font-family: 'Poppins', sans-serif !important;
 }

@@ -12,13 +12,17 @@
   font-size: 18px;
   color: #ffffff;
   margin-top: 1rem;
-  font-family: Inter !important;
+  font-family: 'Inter', sans-serif !important;
   font-style: Medium;
+}
+
+.why_dluwin{
+  font-family: 'Poppins', sans-serif !important;
 }
 
 .hood_title{
     color:#FFFFFF;
-    Font-family: Poppins;
+    font-family: 'Poppins', sans-serif !important;
     Font-size:46px;
     font-weight: 700;
 }
@@ -27,7 +31,7 @@
   text-align: justify;
   color: #FFFFFF;
   font-size: 14px;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif !important;
 }
 
 .under_hood{
