@@ -12,23 +12,26 @@ import Expansion_title from '../Assets/Expansion.png'
 import Prosperity_title from '../Assets/Prosperity.png'
 import point_three from '../Assets/point_3.png'
 import point_four from '../Assets/point_4.png'
+import left_end_road from '../Assets/left_end_road_ua.png'
 
 function Roadmap() {
   return (
     <div style={{background:"#04101C" , overflow:"hidden"}}>
-      <div className="container">
+      <div className="container-fluid px-0">
         <div className="row">
             <div className="col-lg-12">
-                <div className="title_road_uper d-flex justify-content-between">
+                <div className="title_road_uper">
                     <>
                         <img src={lft_crnr} alt="" className='corner_left' />
                         </>
                     <div className="title_core">
                         <h2 className='text-white pt-3 fw-bold road_title'>Roadmap</h2>
-                        <img src={roadd_ua} alt="" className='' />
+                        <img src={roadd_ua} alt="" className='lower_title_uwin' />
                     </div>
-                    <img src={right_side_ua} alt="" className='right_side_win' />
                 </div>
+                <div className='right_end_ua'>
+                    <img src={right_side_ua} alt="" className='right_side_win' />
+                    </div>
 
                 <div className="road_main">
                     <div className="launch d-flex gap-4">
@@ -36,7 +39,7 @@ function Roadmap() {
                         <img src={point_one} alt="" className='point_pin' />
                         <div className='text-start'  data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                             <h4 className='list_main_title fw-bold'>LAUNCH</h4>
-                            <ol className='text-start ps-3 details_road'>
+                            <ol className='text-start ps-2 details_road'>
                                 <li className='pin_point_list'>1,000 Holders</li>
                                 <li className='pin_point_list'>Website Launch</li>
                                 <li className='pin_point_list'>CoinGecko Listing</li>
@@ -48,7 +51,7 @@ function Roadmap() {
                     <div className="growth d-flex gap-4">
                     <div className='text-start'  data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                             <h4 className='list_main_title fw-bold'>Growth</h4>
-                            <ol className='text-start ps-3'>
+                            <ol className='text-start ps-2'>
                                 <li className='pin_point_list'>1,000 Holders</li>
                                 <li className='pin_point_list'>Coinmarketcap listing</li>
                                 <li className='pin_point_list'>DEX listing</li>
@@ -64,7 +67,7 @@ function Roadmap() {
                         <img src={point_three} alt="" className='point_pin' />
                         <div className='text-start' data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                             <h4 className='list_main_title fw-bold'>Expansion</h4>
-                            <ol className='text-start ps-3'>
+                            <ol className='text-start ps-2'>
                                 <li className='pin_point_list'>1,000 Holders</li>
                                 <li className='pin_point_list'>Initial CEX Listing (WhiteBIT, Hotbit, KuCoin)</li>
                                 <li className='pin_point_list'>DEX expansion</li>
@@ -76,7 +79,7 @@ function Roadmap() {
                     <div className="Prosperity d-flex gap-4">
                     <div className='text-start'  data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                             <h4 className='list_main_title fw-bold'>Prosperity</h4>
-                            <ol className='text-start ps-3'>
+                            <ol className='text-start ps-2'>
                                 <li className='pin_point_list'>UAWIN Decentralized Exchange</li>
                                 <li className='pin_point_list'>UAWIN Merch (Merchandise Store)</li>
                                 <li className='pin_point_list'>Influencer Awareness Partnership</li>
@@ -88,7 +91,9 @@ function Roadmap() {
                         
                     </div>
                 </div>
-
+                <div className='end_elft'>
+                    <img src={left_end_road} alt="" className='end_left_wa  ms-auto ' />
+                </div>
             </div>
         </div>
       </div>

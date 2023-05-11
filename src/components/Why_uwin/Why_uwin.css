@@ -35,7 +35,13 @@
 }
 
 .under_hood{
-  padding: 0px 72px;
+  padding: 0px 11px;
+}
+
+.horizental{
+  width: 22%;
+  margin-top: -33rem;
+  margin-left: 52rem;
 }
 
 .prt{

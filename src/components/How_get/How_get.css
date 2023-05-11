@@ -44,6 +44,14 @@ border-radius: 15px 15px 0px 0px !important;
     width: 20%;
 }
 
+.left_get_ppic{
+    width: 20%;
+}
+
+.wu_bbtn{
+    width: 43%;
+}
+
 .hol{
     text-align: justify;
 }
@@ -58,6 +66,10 @@ border-radius: 15px 15px 0px 0px !important;
     font-family: 'Poppins', sans-serif !important;
 }
 
+.for_get_uprre{
+    margin-top: -7rem;
+}
+
 @media only screen and (max-width:700px){
     .main_modal {
         padding-left: 0px !important;
@@ -65,5 +77,9 @@ border-radius: 15px 15px 0px 0px !important;
 
     .get_blue{
         width: 40%;
+    }
+
+    .for_get_uprre {
+        margin-top: -2rem;
     }
 }

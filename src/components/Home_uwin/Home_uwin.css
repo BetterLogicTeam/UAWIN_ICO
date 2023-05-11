@@ -1,6 +1,6 @@
 .opp_title {
   color: white;
-    font-size: 57px;
+    font-size: 49px;
     font-weight:900 !important;
     font-style: ExtraBold;
     font-family: 'Plus Jakarta Sans', sans-serif !important;
@@ -18,6 +18,7 @@
   padding: 4px 7px;
   background-color: #ffd500;
   color: black !important;
+  font-family: 'Plus Jakarta Sans', sans-serif !important;
 }
 
 .invest {
@@ -32,7 +33,7 @@
   border-radius: 20px;
   font-size: 13px;
   font-weight: 600;
-  width: 24%;
+  width: 21%;
   padding: 10px 0px;
 }
 

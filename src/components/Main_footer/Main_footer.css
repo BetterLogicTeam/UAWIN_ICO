@@ -43,6 +43,10 @@
   transition-property: transform;
 }
 
+.b_endd{
+  width: 30%;
+}
+
 .social_handle:hover, .social_handle:focus, .social_handle:active {
   -webkit-transform: scale(0.9);
   transform: scale(0.9);

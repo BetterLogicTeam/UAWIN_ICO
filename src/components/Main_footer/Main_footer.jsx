@@ -41,10 +41,10 @@ export default function Main_footer() {
           className="row justify-content-between py-3"
           style={{ background: "#131E28" }}
         >
-          <div className="col-md-3 all_gary">
+          <div className="col-md-3 all_gary b_endd">
             ©2023 UAWIN. All Rights Reserved
           </div>
-          <div className="col-md-3 all_gary">
+          <div className="col-md-3 all_gary b_endd">
             Terms & conditions | Privacy policy
           </div>
         </div>

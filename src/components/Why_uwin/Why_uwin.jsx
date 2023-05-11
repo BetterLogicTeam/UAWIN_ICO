@@ -22,7 +22,7 @@ function Why_uwin() {
 
           <div className="col-lg-6">
             <div className="under_hood" data-aos="fade-left" data-aos-duration="2000">
-              <h2 className="hood_title">Under the hood</h2>
+              <h2 className="hood_title text-start">Under the hood</h2>
               <p className="hood_details all_gary">
                 $UAWIN is fully decentralized and owned by the community of
                 holders. $UAWIN is built on Binance Smart Chain - industry’s
@@ -34,6 +34,7 @@ function Why_uwin() {
               </p>
             </div>
           </div>
+            <img src={side_uwin} alt="" className="horizental" />
         </div>
       </div>
     </div>

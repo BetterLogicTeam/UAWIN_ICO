@@ -1,11 +1,12 @@
 .main_faq_bg{
     background-color: #0E1924 !important;
-    padding: 30px 10px !important;
+    padding: 45px 10px !important;
 }
 
 
 .faqq_title{
     font-family: 'Poppins', sans-serif !important;
+    font-size: 32px;
 }
 
 .faq_header .accordion-button{
@@ -21,11 +22,6 @@
     color: #005EC0 !important;
 }
 
-.faq_main_acc .accordion-item{
-    border: none !important;
-
-
-}
 .faq_main_acc .accordion-item :focus{
     box-shadow: none !important;
 }
@@ -33,17 +29,33 @@
     background-color: #04101C !important ;
     color: white !important;
     border: none !important;
+    padding-top: 1px;
+    border-radius: 0px 0px 6px 6px !important;
 }
 .faq_header {
     border: none !important;
 }
 .accordion-button:not(.collapsed){
     box-shadow: none !important;
-    color: white !important;
+    /* color: white !important; */
 }
 
 .fqq{
     text-align: justify;
     font-size: 13px;
     font-family: 'Poppins', sans-serif !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding-top: 15px;
+}
+
+.accordion-button{
+    border-radius: 6px 6px 6px 6px !important;
+    
+}
+
+.accordion-item{
+    border-radius: 8px !important;
+    border: none !important;
+    background-color: #04101C !important;
+    /* border: 2px solid red !important; */
 }

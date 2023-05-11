@@ -3,14 +3,14 @@ import "./Home_uwin.css";
 import corner_1 from "../Assets/blu_corner.png";
 import corner_2 from "../Assets/yellow_corner.png";
 import yello_coins from "../Assets/right_coin.png";
-import dark_win from "../Assets/dark_win.PNG";
+import dark_win from "../Assets/dark_win.png";
 import Exchange_modal from "../Exchange_modal/Exchange_modal";
 
 function Home_uwin({modalShow,setModalShow}) {
   const [SwapModel, setSwapModel] = React.useState(false);
   return (
     <div style={{ background: "#04101C" }} id="Home">
-      <div className="container-fluid">
+      <div className="container-fluid px-0" >
         <div className="row justify-content-center">
           <div className="col-lg-6">
             <div className="left_corner text-start">

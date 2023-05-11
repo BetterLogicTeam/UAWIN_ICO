@@ -12,13 +12,12 @@ export default function FAQ() {
         <div className="row justify-content-center ">
           <div className="col-md-8">
             <Accordion defaultActiveKey="0" className="faq_main_acc">
-              <Accordion.Item eventKey="0">
+              <Accordion.Item eventKey="0" className="dop">
                 <Accordion.Header className="faq_header">
                   What does UAWIN aim to achieve?
                 </Accordion.Header>
-                <Accordion.Body>
-                  <hr className="w-100 text-white text-center" />
-                  <div className="all_gary fqq">
+                <Accordion.Body className="">
+                  <div className="all_gary fqq ">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation
@@ -35,7 +34,6 @@ export default function FAQ() {
                   What makes UAWIN so unique?
                 </Accordion.Header>
                 <Accordion.Body>
-                  <hr className="w-100 text-white text-center" />
                   <div className='all_gary fqq'>
                   UAWIN was created as a token that represents a social and
                   political event. Never before has anything happened that would
@@ -51,7 +49,6 @@ export default function FAQ() {
                   How can I benefit from UAWIN?
                 </Accordion.Header>
                 <Accordion.Body>
-                  <hr className="w-100 text-white text-center" />
                   <div className='all_gary fqq'>
                   UAWIN was created as a token that represents a social and
                   political event. Never before has anything happened that would

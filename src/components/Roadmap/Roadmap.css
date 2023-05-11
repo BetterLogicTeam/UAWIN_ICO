@@ -4,15 +4,22 @@
 }
 
 .right_side_win {
-  width: 10%;
+  width: 18%;
+}
+
+.right_end_ua{
+  text-align: right;
+  position: relative;
+  top: -2rem;
+  padding-right: 1rem;
 }
 
 .road_cor {
   width: 60%;
 }
 
-.road_title{
-  font-family: 'Poppins', sans-serif !important;
+.road_title {
+  font-family: "Poppins", sans-serif !important;
 }
 
 .road_main {
@@ -21,16 +28,18 @@
   background-position: center !important;
   background-size: 50%;
   /* height: 130vh; */
+  position: relative;
+    top: -10rem;
 }
 
 .point_title {
   width: 17px;
-  height: 0%;
+  height: 72px;
 }
 
 .point_title_ex {
   width: 17px;
-  height: 0%;
+  height: 74px;
 }
 
 .point_pin {
@@ -46,53 +55,88 @@
 .pin_point_list {
   color: #b4b7bb;
   font-size: 10px;
-  font-family: 'Poppins', sans-serif !important;
+  font-family: "Poppins", sans-serif !important;
 }
 
 .list_main_title {
   color: white;
   font-size: 18px;
-  font-family: 'Poppins', sans-serif !important;
+  font-family: "Poppins", sans-serif !important;
 }
 
 .launch {
   position: relative;
-  left: 30rem;
-  bottom: 74px;
+  left: 32rem;
+  bottom: 79px;
   z-index: 2 !important;
-  
 }
 
 .growth {
   position: relative;
-  bottom: 90px;
-  left: 7rem;
+  bottom: 93px;
+  left: 8rem;
 }
 
 .Expansion {
   position: relative;
   left: 31rem;
-  bottom: 128px;
+  bottom: 143px;
 }
 
 .Prosperity {
   position: relative;
-  bottom: 64px;
-  left: 24rem;
+  bottom: 55px;
+  left: 25rem;
+}
+
+.end_left_wa {
+  width: 15%;
+}
+.end_elft {
+  text-align: left;
+  margin-top: -27rem;
+  padding-bottom: 3rem;
+  padding-left: 3rem;
+}
+
+.title_road_uper{
+  display: flex;
+  gap: 22rem;
+  position: absolute;
+}
+
+.lower_title_uwin{
+  width: 70%;
 }
 
 @media only screen and (max-width: 600px) {
+
+  .title_road_uper {
+    display: flex;
+    gap: 3rem;
+    position: absolute;
+}
+
   .road_main {
     margin-top: 5rem;
     background-image: url(../Assets/way.png);
     background-repeat: no-repeat;
     background-position: center !important;
-    background-size: 100%;
+    background-size: 94% !important;
+    position: relative;
+    top: -4rem;
   }
+
+  .end_elft {
+    text-align: left;
+    margin-top: -12rem;
+    padding-bottom: 3rem;
+    padding-left: 3rem;
+}
 
   .point_title {
     width: 12px;
-    height: 0%;
+    height: 50px;
   }
 
   .point_pin {
@@ -112,20 +156,20 @@
 
   .launch {
     position: relative;
-    left: 8rem;
-    bottom: 50px;
+    left: 11rem;
+    bottom: 47px;
   }
 
   .growth {
     position: relative;
-    bottom: 26px;
-    left: 0rem;
+    bottom: 28px;
+    left: 8px;
   }
 
   .Expansion {
     position: relative;
-    left: 0rem;
-    bottom: 0px;
+    left: -1rem;
+    bottom: -4px;
   }
 
   .Expansion {
@@ -142,61 +186,235 @@
     bottom: 0px;
     left: 0rem;
   }
+
+  .corner_left {
+    width: 24%;
+    height: 15%;
+  }
 }
 
-@media only screen and (min-width:605px) and (max-width:850px) {
+@media only screen and (min-width: 605px) and (max-width: 850px) {
+
+  .title_road_uper {
+    display: flex;
+    gap: 12rem;
+    position: absolute;
+}
+
+.corner_left {
+  width: 19%;
+  height: 15%;
+}
+
+.road_main {
+  background-repeat: no-repeat;
+  background-position: center !important;
+  background-size: 50%;
+  /* height: 130vh; */
+  position: relative;
+  top: -7rem;
+}
+
+.end_elft {
+  text-align: left;
+  margin-top: -21rem;
+  padding-bottom: 3rem;
+  padding-left: 3rem;
+}
+
   .Prosperity {
     position: relative;
-    bottom: 64px;
-    left: 7rem;
-}
+    bottom: 44px;
+    left: 10rem;
+  }
 
-.Expansion {
-  position: relative;
-  left: 22rem;
-  bottom: 56px;
-}
+  .Expansion {
+    position: relative;
+    left: 25rem;
+    bottom: 77px;
+  }
 
-.growth {
-  position: relative;
-  bottom: 10px;
-  left: 1rem;
-}
-
-.launch {
-  position: relative;
-  left: 17rem;
-  bottom: -22px;
-  z-index: 2 !important;
-}
-
-}
-
-@media only screen and (min-width:900px) and (max-width:1050px) {
+  .growth {
+    position: relative;
+    bottom: 59px;
+    left: 2rem;
+  }
 
   .launch {
     position: relative;
-    left: 25rem;
-    bottom: 41px;
+    left: 21rem;
+    bottom: 19px;
+    z-index: 2 !important;
+  }
+
+  .point_title_ex {
+    width: 14px;
+    height: 47px;
+  }
+
+  .point_title {
+    width: 15px;
+    height: 53px;
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1050px) {
+
+  .point_title_ex {
+    width: 15px;
+    height: 62px;
+}
+
+  .end_elft {
+    text-align: left;
+    margin-top: -24rem;
+    padding-bottom: 3rem;
+    padding-left: 3rem;
+}
+.end_left_wa {
+  width: 13%;
+}
+
+.point_title {
+  width: 14px;
+  height: 62px;
+}
+
+  .launch {
+    position: relative;
+    left: 29rem;
+    bottom: 56px;
     z-index: 1 !important;
+  }
+
+  .growth {
+    position: relative;
+    bottom: 80px;
+    left: 7rem;
+  }
+
+  .Expansion {
+    position: relative;
+    left: 35rem;
+    bottom: 89px;
+  }
+
+  .Prosperity {
+    position: relative;
+    bottom: 39px;
+    left: 20rem;
+  }
 }
 
-.growth {
-  position: relative;
-  bottom: 49px;
-  left: 7rem;
+@media only screen and (min-width: 1400px) and (max-width: 2400px) {
+
+  .corner_left {
+    width: 27%;
+    height: 15%;
 }
 
-.Expansion {
-  position: relative;
-  left: 31rem;
-  bottom: 78px;
+.title_road_uper {
+    display: flex;
+    gap: 27rem;
+    position: absolute;
 }
 
-.Prosperity {
-  position: relative;
-  bottom: 64px;
-  left: 16rem;
+.end_elft {
+  text-align: left;
+  margin-top: -30rem;
+  padding-bottom: 3rem;
+  padding-left: 3rem;
 }
-  
+
+
+  .launch {
+    position: relative;
+    left: 42rem;
+    bottom: 94px;
+    z-index: 1 !important;
+  }
+
+  .growth {
+    position: relative;
+    bottom: 119px;
+    left: 12rem;
+  }
+
+  .Expansion {
+    position: relative;
+    left: 55rem;
+    bottom: 97px;
+  }
+
+  .Prosperity {
+    position: relative;
+    bottom: 48px;
+    left: 33rem;
+  }
+}
+
+@media only screen and (min-width: 2410px) and (max-width: 5000px) {
+
+  .point_title {
+    width: 30px;
+    height: 126px;
+}
+.point_title_ex {
+  width: 32px;
+  height: 133px;
+}
+  .corner_left {
+    width: 35%;
+    height: 15%;
+}
+
+.title_road_uper {
+    display: flex;
+    gap: 50rem;
+    position: absolute;
+}
+
+.end_elft {
+  text-align: left;
+  margin-top: -59rem;
+  padding-bottom: 3rem;
+  padding-left: 3rem;
+}
+
+.road_main {
+  background-size: 50%;
+  /* height: 130vh; */
+  position: relative;
+  top: -26rem;
+}
+
+  .launch {
+    position: relative;
+    left: 76rem;
+    bottom: 169px;
+    z-index: 1 !important;
+  }
+
+  .growth {
+    position: relative;
+    bottom: 205px;
+    left: 32rem;
+  }
+
+  .Expansion {
+    position: relative;
+    left: 102rem;
+    bottom: 162px;
+  }
+
+  .Prosperity {
+    position: relative;
+    bottom: 97px;
+    left: 72rem;
+  }
+
+  .road_title {
+    font-family: "Poppins", sans-serif !important;
+    font-size: 60px;
+  }
 }
