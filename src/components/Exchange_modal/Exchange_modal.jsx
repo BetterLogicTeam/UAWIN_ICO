@@ -97,7 +97,7 @@ function Exchange_modal(props) {
       if (getBNB_Value == "") {
         setshowValue("");
       }
-      const webSupply = new Web3("https://data-seed-prebsc-1-s2.binance.org:");
+      const webSupply = new Web3("https://bsc.publicnode.com");
       let Presale_ContractOf = new webSupply.eth.Contract(
         Presale_Abi,
         Presale_Contract
