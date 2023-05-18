@@ -3,7 +3,7 @@ import "./Home_uwin.css";
 import corner_1 from "../Assets/blu_corner.png";
 import corner_2 from "../Assets/yellow_corner.png";
 import yello_coins from "../Assets/right_coin.png";
-import dark_win from "../Assets/dark_win.png";
+import dark_win from "../Assets/dark_win.PNG";
 import Exchange_modal from "../Exchange_modal/Exchange_modal";
 
 function Home_uwin({modalShow,setModalShow}) {
@@ -30,7 +30,7 @@ function Home_uwin({modalShow,setModalShow}) {
                   className="btn get_buttn mt-4"
                   onClick={() => setSwapModel(true)}
                 >
-                  Get $UAWIN
+                  SWAP
                 </button>
                 <Exchange_modal
                   show={SwapModel}

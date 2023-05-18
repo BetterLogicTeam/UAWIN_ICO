@@ -5,17 +5,18 @@ import left_get_pic from "../Assets/to_get_uper_left.png";
 import car from "../Assets/car.png";
 import Connect_wallet from "../Connect_wallet/Connect_wallet";
 import { useSelector } from "react-redux";
-import get_end from '../Assets/get_end_right.png';
+import get_end from "../Assets/get_end_right.png";
+import Exchange_modal from "../Exchange_modal/Exchange_modal";
 
 export default function How_get() {
   const [modalShow, setModalShow] = React.useState(false);
   let { provider, acc, providerType, web3 } = useSelector(
     (state) => state.connectWallet
   );
-
+  const [SwapModel, setSwapModel] = React.useState(false);
   return (
     <div className="main_how_to_get pb-5" id="how_get">
-      <div className="d-flex justify-content-between" >
+      <div className="d-flex justify-content-between">
         <img src={left_get_pic} alt="" className="left_get_ppic" />
         <img src={v} alt="#" className="get_blue" />
       </div>
@@ -27,8 +28,14 @@ export default function How_get() {
           <div className="col-md-6" data-aos="zoom-in" data-aos-duration="2000">
             <img src={car} className="w-100" alt="" />
           </div>
-          <div className="col-md-6 text-white" data-aos="fade-left" data-aos-duration="2000">
-            <h1 className="text-white fw-bold text-start connect_w_title">Connect Wallet</h1>
+          <div
+            className="col-md-6 text-white"
+            data-aos="fade-left"
+            data-aos-duration="2000"
+          >
+            <h1 className="text-white fw-bold text-start connect_w_title">
+              Connect Wallet
+            </h1>
             <ol className="hol ps-3">
               <li className="how_detail_point all_gary">
                 On Google Chrome, visit metamask.io to download the extension
@@ -47,27 +54,32 @@ export default function How_get() {
             </ol>
 
             <div className="d-flex justify-content-between">
+              <div>
+                <button
+                  className="cooncet_wallate mt-5"
+                  onClick={(acc?.startsWith("0x") ? () => setSwapModel(true):() => setModalShow(true))}
+                >
+                  {acc?.startsWith("0x")
+                    ? "SWAP"
+                    : "Connect Wallet"}{" "}
+                </button>
+                <Connect_wallet
+                  show={modalShow}
+                  onHide={() => setModalShow(false)}
+                />
+              </div>
 
-<div>
-            <button
-              className="cooncet_wallate mt-5"
-              onClick={() => setModalShow(true)}
-            >
-              {acc?.startsWith("0x")
-                ? acc?.substring(0, 4) + "..." + acc?.substring(acc?.length - 4): "Connect Wallet"}{" "}
-            </button>
-            <Connect_wallet
-              show={modalShow}
-              onHide={() => setModalShow(false)}
-            />
+              <img src={get_end} alt="" className="wu_bbtn mt-5" />
             </div>
-
-            <img src={get_end} alt="" className="wu_bbtn mt-5" />
-            </div>
-
           </div>
         </div>
       </div>
+      <Exchange_modal
+        show={SwapModel}
+        onHide={() => setSwapModel(false)}
+        setModalShow={setModalShow}
+        modalShow={modalShow}
+      />
     </div>
   );
 }
