@@ -26,12 +26,16 @@ function Home_uwin({modalShow,setModalShow}) {
                   Invest in the most expected geopolitical event that is about
                   to change the future of the 21st century.
                 </p>
+                <a href="#how_get">
+
                 <button
                   className="btn get_buttn mt-4"
-                  onClick={() => setSwapModel(true)}
+                
+                 
                 >
-                  SWAP
+                  Get $UAWIN
                 </button>
+                </a>
                 <Exchange_modal
                   show={SwapModel}
                   onHide={() => setSwapModel(false)}

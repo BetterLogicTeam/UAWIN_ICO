@@ -15,12 +15,12 @@ export default function How_get() {
   );
   const [SwapModel, setSwapModel] = React.useState(false);
   return (
-    <div className="main_how_to_get pb-5" id="how_get">
-      <div className="d-flex justify-content-between">
+    <div className="main_how_to_get pb-5">
+      <div className="d-flex justify-content-between"  id="how_get">
         <img src={left_get_pic} alt="" className="left_get_ppic" />
         <img src={v} alt="#" className="get_blue" />
       </div>
-      <div className="container for_get_uprre">
+      <div className="container for_get_uprre" >
         <h1 className="text-white fw-bold text-center how_to_title ">
           How to get <span className="uawin px-1"> $UAWIN? </span>
         </h1>

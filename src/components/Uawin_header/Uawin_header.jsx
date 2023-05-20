@@ -8,6 +8,7 @@ import Form from "react-bootstrap/Form";
 import ua_win from "../Assets/win_logo.png";
 import Connect_wallet from "../Connect_wallet/Connect_wallet";
 import { useSelector } from "react-redux";
+import {GrMenu} from 'react-icons/gr'
 
 function Uawin_header({modalShow,setModalShow}) {
 
@@ -27,7 +28,11 @@ function Uawin_header({modalShow,setModalShow}) {
           <Navbar.Brand href="#Home">
             <img src={ua_win} alt="#" className="win_logo w-75 w-md-75" />
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Toggle >
+            <GrMenu  style={{color:"white"}}  />
+            </Navbar.Toggle>
+
+
           <Navbar.Collapse
             id="responsive-navbar-nav"
             className="justify-content-around"
